@@ -1,1 +1,55 @@
 
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VERTILED — Écrans LED Verticaux</title>
+
+<style>
+body{margin:0;background:#0A0A0A;color:#fff;font-family:Arial}
+.navbar{display:flex;justify-content:space-between;align-items:center;padding:20px}
+.nav-links{display:flex;gap:20px;align-items:center}
+.logo-img{height:70px}
+.hero{text-align:center;padding:120px 20px}
+.gallery-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px;padding:40px}
+.gallery-card{height:300px;background-size:cover;background-position:center;border-radius:12px}
+</style>
+</head>
+
+<body>
+
+<nav class="navbar">
+<a href="#"><img src="logo.png" class="logo-img"></a>
+
+<div class="nav-links">
+<a href="#">Accueil</a>
+<a href="#">Locations</a>
+<a href="#">Galerie</a>
+<a href="#">Contact</a>
+
+<!-- LANGUAGE SWITCH -->
+<a href="index.html" style="color:#fff;">EN</a>
+<span>|</span>
+<a href="fr.html" style="color:#aaa;">FR</a>
+</div>
+</nav>
+
+<section class="hero">
+<h1>Écrans LED verticaux qui attirent l’attention</h1>
+<p>Location d’écrans LED premium pour événements, commerce et activations.</p>
+</section>
+
+<section class="gallery-grid">
+<div class="gallery-card" style="background-image:url('image1.jpeg')"></div>
+<div class="gallery-card" style="background-image:url('image2.jpeg')"></div>
+<div class="gallery-card" style="background-image:url('image3.jpeg')"></div>
+<div class="gallery-card" style="background-image:url('image4.jpeg')"></div>
+<div class="gallery-card" style="background-image:url('image5.png')"></div>
+<div class="gallery-card" style="background-image:url('image6.jpeg')"></div>
+<div class="gallery-card" style="background-image:url('image7.jpeg')"></div>
+<div class="gallery-card" style="background-image:url('image8.png')"></div>
+</section>
+
+</body>
+</html>
