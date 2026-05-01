@@ -1,10 +1,10 @@
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>VERTILED — Vertical LED Display Rentals</title>
+<title>VERTILED — Location d’écrans LED verticaux</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 <style>
@@ -278,7 +278,7 @@
   .gallery-card.image-card { min-height: 360px; background-size: cover; background-position: center; }
   .gallery-card.image-card::before { content: ''; position: absolute; inset: 0; background: linear-gradient(180deg, transparent 35%, rgba(0,0,0,.78) 100%); z-index: 1; }
 
-  /* Gallery Scene - LED Poster Visual */
+  /* Galerie Scene - LED Poster Visual */
   .gallery-scene {
     position: absolute; top: 0; left: 0; right: 0; bottom: 60px;
     display: flex; align-items: center; justify-content: center;
@@ -419,12 +419,12 @@
 <nav class="navbar" id="navbar">
  <a class="nav-logo" href="#hero"><img src="logo.png" class="logo-img" alt="VERTILED logo"></a>
   <div class="nav-links">
-    <button class="nav-link" onclick="smoothScroll('hero')">Home</button>
-    <button class="nav-link" onclick="smoothScroll('pricing')">Rentals</button>
-    <button class="nav-link" onclick="smoothScroll('gallery')">Gallery</button>
+    <button class="nav-link" onclick="smoothScroll('hero')">Accueil</button>
+    <button class="nav-link" onclick="smoothScroll('pricing')">Locations</button>
+    <button class="nav-link" onclick="smoothScroll('gallery')">Galerie</button>
     <button class="nav-link" onclick="smoothScroll('contact')">Contact</button>
-    <a class="glow-btn glow-btn-sm" href="#contact" onclick="smoothScroll('contact')">Get a Quote</a>
-    <div class="language-switch"><a class="active" href="index.html">EN</a><span>|</span><a href="fr.html">FR</a></div>
+    <a class="glow-btn glow-btn-sm" href="#contact" onclick="smoothScroll('contact')">Demander un devis</a>
+    <div class="language-switch"><a href="index.html">EN</a><span>|</span><a class="active" href="fr.html">FR</a></div>
   </div>
   <button class="hamburger" id="hamburgerBtn" onclick="toggleMenu()">
     <span></span><span></span><span></span>
@@ -433,11 +433,11 @@
 
 <!-- Mobile Menu -->
 <div class="mobile-menu" id="mobileMenu">
-  <a href="#hero" onclick="closeMenu(); smoothScroll('hero')">Home</a>
-  <a href="#pricing" onclick="closeMenu(); smoothScroll('pricing')">Rentals</a>
-  <a href="#gallery" onclick="closeMenu(); smoothScroll('gallery')">Gallery</a>
+  <a href="#hero" onclick="closeMenu(); smoothScroll('hero')">Accueil</a>
+  <a href="#pricing" onclick="closeMenu(); smoothScroll('pricing')">Locations</a>
+  <a href="#gallery" onclick="closeMenu(); smoothScroll('gallery')">Galerie</a>
   <a href="#contact" onclick="closeMenu(); smoothScroll('contact')">Contact</a>
-  <a href="fr.html" onclick="closeMenu()">FR</a>
+  <a href="index.html" onclick="closeMenu()">EN</a>
 </div>
 
 <!-- ========== HERO ========== -->
@@ -446,14 +446,14 @@
   <div class="hero-bg-glow2"></div>
   <div class="hero-grid-lines"></div>
   <div class="hero-content">
-    <div class="hero-badge">✦ Vertical LED Display Rentals — Toronto &amp; Montreal</div>
+    <div class="hero-badge">✦ Vertical LED Display Locations — Toronto &amp; Montreal</div>
     <h1 class="hero-title">
-      Vertical LED Displays That <span class="gradient-text">Command Attention</span>
+      Des écrans LED verticaux qui <span class="gradient-text">attirent l’attention</span>
     </h1>
-    <p class="hero-sub">Fast setup. Premium presence. Vertical LED displays designed to make your brand unforgettable.</p>
+    <p class="hero-sub">Installation rapide. Présence haut de gamme. Des écrans LED verticaux conçus pour rendre votre marque mémorable.</p>
     <div class="hero-btns">
-      <a class="glow-btn" href="#contact" onclick="smoothScroll('contact')">Request a Quote →</a>
-      <a class="outline-btn" href="#pricing" onclick="smoothScroll('pricing')">View Rentals</a>
+      <a class="glow-btn" href="#contact" onclick="smoothScroll('contact')">Demander un devis →</a>
+      <a class="outline-btn" href="#pricing" onclick="smoothScroll('pricing')">View Locations</a>
     </div>
   </div>
   <div class="scroll-indicator"><div></div></div>
@@ -464,19 +464,19 @@
   <div class="stats-grid">
     <div class="stat-item animate-on-scroll">
       <div class="stat-num gradient-text">80.7″</div>
-      <div class="stat-label">Display Height</div>
+      <div class="stat-label">Hauteur de l’écran</div>
     </div>
     <div class="stat-item animate-on-scroll delay-1">
       <div class="stat-num gradient-text">640×1920</div>
-      <div class="stat-label">Resolution</div>
+      <div class="stat-label">Résolution</div>
     </div>
     <div class="stat-item animate-on-scroll delay-2">
       <div class="stat-num gradient-text">2</div>
-      <div class="stat-label">Cities Served</div>
+      <div class="stat-label">Villes desservies</div>
     </div>
     <div class="stat-item animate-on-scroll delay-3">
       <div class="stat-num gradient-text">100+</div>
-      <div class="stat-label">Events Powered</div>
+      <div class="stat-label">Événements propulsés</div>
     </div>
   </div>
 </section>
@@ -485,25 +485,25 @@
 <section class="features-section">
   <div class="features-grid animate-on-scroll" id="features">
     <div>
-      <div class="section-label" style="color:#D4AF37">Why VERTILED</div>
-      <h2 class="section-title">Premium LED Displays, <span style="color:#AAAAAA">Zero Hassle</span></h2>
-      <p class="section-desc">Our vertical LED displays stand 80.7 inches tall with stunning 640×1920 resolution. Built for events, lobbies, retail spaces, and brand activations.</p>
+      <div class="section-label" style="color:#D4AF37">Pourquoi VERTILED</div>
+      <h2 class="section-title">Écrans LED premium, <span style="color:#AAAAAA">sans complication</span></h2>
+      <p class="section-desc">Nos écrans LED verticaux mesurent 80,7 pouces de haut avec une résolution nette de 640×1920. Conçus pour les événements, halls d’entrée, commerces et activations de marque.</p>
       <div>
         <div class="feature-item">
           <div class="feature-icon">⚡</div>
-          <div><div class="feature-title">5-Minute Setup</div><div class="feature-desc">Unfold, power on, and you're live</div></div>
+          <div><div class="feature-title">Installation en 5 minutes</div><div class="feature-desc">Dépliez, branchez, et vous êtes prêts</div></div>
         </div>
         <div class="feature-item">
           <div class="feature-icon">🎯</div>
-          <div><div class="feature-title">Crystal Clear</div><div class="feature-desc">640×1920 resolution for sharp visuals</div></div>
+          <div><div class="feature-title">Image nette</div><div class="feature-desc">Résolution 640×1920 pour des visuels précis</div></div>
         </div>
         <div class="feature-item">
           <div class="feature-icon">📦</div>
-          <div><div class="feature-title">Portable Display</div><div class="feature-desc">Easy to move, position, and deploy</div></div>
+          <div><div class="feature-title">Affichage portable</div><div class="feature-desc">Facile à déplacer, positionner et installer</div></div>
         </div>
         <div class="feature-item">
           <div class="feature-icon">🛡️</div>
-          <div><div class="feature-title">Full Support</div><div class="feature-desc">Delivery, setup, and technical assistance</div></div>
+          <div><div class="feature-title">Support complet</div><div class="feature-desc">Livraison, installation et assistance technique</div></div>
         </div>
       </div>
     </div>
@@ -511,17 +511,17 @@
       <div class="poster-visual">
         <div class="poster-screen">
           <div class="poster-screen-shimmer"></div>
-          <div class="poster-label">YOUR<br>CONTENT<br>HERE</div>
+          <div class="poster-label">VOTRE<br>CONTENU<br>ICI</div>
         </div>
         <div class="poster-specs">
           <div class="poster-spec">
             <div class="poster-spec-val" style="color:#D4AF37">80.7″</div>
-            <div class="poster-spec-label">Height</div>
+            <div class="poster-spec-label">Hauteur</div>
           </div>
           <div class="poster-spec-divider"></div>
           <div class="poster-spec">
             <div class="poster-spec-val" style="color:#FFF1A8">25.4″</div>
-            <div class="poster-spec-label">Width</div>
+            <div class="poster-spec-label">Largeur</div>
           </div>
         </div>
       </div>
@@ -533,50 +533,50 @@
 <section class="pricing-section" id="pricing">
   <div class="pricing-wrapper">
     <div class="pricing-header animate-on-scroll">
-      <div class="section-label" style="color:#FFF1A8">Rental Plans</div>
-      <h2 class="section-title">Flexible Pricing for <span class="gradient-text">Every Event</span></h2>
-      <p>From one-day activations to full show runs — we've got you covered.</p>
+      <div class="section-label" style="color:#FFF1A8">Forfaits de location</div>
+      <h2 class="section-title">Des forfaits flexibles pour <span class="gradient-text">chaque événement</span></h2>
+      <p>D’une activation d’une journée à un événement complet, nous avons une solution adaptée.</p>
     </div>
     <div class="pricing-grid">
       <!-- Day -->
       <div class="pricing-card animate-on-scroll">
-        <div class="plan-label">1 Day</div>
-        <div class="plan-price">Starting at</div>
-        <p class="plan-desc">Perfect for single-day events, presentations, and pop-ups</p>
+        <div class="plan-label">1 journée</div>
+        <div class="plan-price">À partir de</div>
+        <p class="plan-desc">Parfait pour les événements d’une journée, présentations et kiosques temporaires</p>
         <div class="plan-features">
-          <div class="plan-feature"><div class="plan-check normal">✓</div><span>Delivery &amp; Setup</span></div>
-          <div class="plan-feature"><div class="plan-check normal">✓</div><span>Content Upload Support</span></div>
-          <div class="plan-feature"><div class="plan-check normal">✓</div><span>On-Site Technical Support</span></div>
-          <div class="plan-feature"><div class="plan-check normal">✓</div><span>Same-Day Pickup</span></div>
+          <div class="plan-feature"><div class="plan-check normal">✓</div><span>Livraison et installation</span></div>
+          <div class="plan-feature"><div class="plan-check normal">✓</div><span>Support pour téléverser le contenu</span></div>
+          <div class="plan-feature"><div class="plan-check normal">✓</div><span>Support technique sur place</span></div>
+          <div class="plan-feature"><div class="plan-check normal">✓</div><span>Ramassage le jour même</span></div>
         </div>
-        <a class="outline-btn" href="#contact" onclick="smoothScroll('contact')">Request a Quote</a>
+        <a class="outline-btn" href="#contact" onclick="smoothScroll('contact')">Demander un devis</a>
       </div>
-      <!-- Weekend (Popular) -->
+      <!-- Fin de semaine (Popular) -->
       <div class="pricing-card popular animate-on-scroll delay-1">
-        <div class="popular-badge">Most Popular</div>
-        <div class="plan-label">Weekend</div>
-        <div class="plan-price">Most Popular</div>
-        <p class="plan-desc">Ideal for weekend trade shows, conferences, and exhibitions</p>
+        <div class="popular-badge">Le plus populaire</div>
+        <div class="plan-label">Fin de semaine</div>
+        <div class="plan-price">Le plus populaire</div>
+        <p class="plan-desc">Idéal pour salons, conférences et expositions de fin de semaine</p>
         <div class="plan-features">
-          <div class="plan-feature"><div class="plan-check pop">✓</div><span>Friday Setup – Sunday Pickup</span></div>
-          <div class="plan-feature"><div class="plan-check pop">✓</div><span>Content Upload Support</span></div>
-          <div class="plan-feature"><div class="plan-check pop">✓</div><span>Priority Technical Support</span></div>
-          <div class="plan-feature"><div class="plan-check pop">✓</div><span>Extended Hours Coverage</span></div>
+          <div class="plan-feature"><div class="plan-check pop">✓</div><span>Installation vendredi – ramassage dimanche</span></div>
+          <div class="plan-feature"><div class="plan-check pop">✓</div><span>Support pour téléverser le contenu</span></div>
+          <div class="plan-feature"><div class="plan-check pop">✓</div><span>Support technique prioritaire</span></div>
+          <div class="plan-feature"><div class="plan-check pop">✓</div><span>Couverture prolongée</span></div>
         </div>
-        <a class="glow-btn" href="#contact" onclick="smoothScroll('contact')">Request a Quote</a>
+        <a class="glow-btn" href="#contact" onclick="smoothScroll('contact')">Demander un devis</a>
       </div>
       <!-- Multi-day -->
       <div class="pricing-card animate-on-scroll delay-2">
-        <div class="plan-label">Full Show Run</div>
-        <div class="plan-price">Best Value</div>
-        <p class="plan-desc">Multi-day events, retail activations, and long-term installations</p>
+        <div class="plan-label">Événement complet</div>
+        <div class="plan-price">Meilleure valeur</div>
+        <p class="plan-desc">Événements de plusieurs jours, activations commerciales et installations prolongées</p>
         <div class="plan-features">
-          <div class="plan-feature"><div class="plan-check normal">✓</div><span>Flexible Multi-Day Duration</span></div>
-          <div class="plan-feature"><div class="plan-check normal">✓</div><span>Dedicated Account Manager</span></div>
-          <div class="plan-feature"><div class="plan-check normal">✓</div><span>24/7 Technical Support</span></div>
-          <div class="plan-feature"><div class="plan-check normal">✓</div><span>Custom Content Scheduling</span></div>
+          <div class="plan-feature"><div class="plan-check normal">✓</div><span>Durée flexible sur plusieurs jours</span></div>
+          <div class="plan-feature"><div class="plan-check normal">✓</div><span>Chargé de compte dédié</span></div>
+          <div class="plan-feature"><div class="plan-check normal">✓</div><span>Support technique 24/7</span></div>
+          <div class="plan-feature"><div class="plan-check normal">✓</div><span>Planification personnalisée du contenu</span></div>
         </div>
-        <a class="outline-btn" href="#contact" onclick="smoothScroll('contact')">Request a Quote</a>
+        <a class="outline-btn" href="#contact" onclick="smoothScroll('contact')">Demander un devis</a>
       </div>
     </div>
   </div>
@@ -586,20 +586,20 @@
 <section class="gallery-section" id="gallery">
   <div class="gallery-wrapper">
     <div class="gallery-header animate-on-scroll">
-      <div class="section-label" style="color:#D4AF37">Our Work</div>
-      <h2 class="section-title">See VERTILED <span class="gradient-text">In Action</span></h2>
+      <div class="section-label" style="color:#D4AF37">Nos réalisations</div>
+      <h2 class="section-title">Voyez VERTILED <span class="gradient-text">en action</span></h2>
     </div>
     <div class="gallery-grid">
-      <div class="gallery-card image-card animate-on-scroll" style="background-image:url('image1.jpeg')"><div style="position:relative;z-index:2"><div class="gallery-card-tag">Retail &amp; Banking</div><div class="gallery-card-desc">In-branch promotions and premium brand displays</div></div></div>
-      <div class="gallery-card image-card animate-on-scroll delay-1" style="background-image:url('image2.jpeg')"><div style="position:relative;z-index:2"><div class="gallery-card-tag">Brand Activations</div><div class="gallery-card-desc">High-impact product advertising for events</div></div></div>
-      <div class="gallery-card image-card animate-on-scroll delay-2" style="background-image:url('image3.jpeg')"><div style="position:relative;z-index:2"><div class="gallery-card-tag">Corporate Events</div><div class="gallery-card-desc">Hotel lobby, symposium, and conference signage</div></div></div>
-      <div class="gallery-card image-card animate-on-scroll delay-3" style="background-image:url('image4.jpeg')"><div style="position:relative;z-index:2"><div class="gallery-card-tag">Markets &amp; Cafés</div><div class="gallery-card-desc">Food vendors, cafés, and seasonal activations</div></div></div>
-      <div class="gallery-card image-card animate-on-scroll" style="background-image:url('image5.png')"><div style="position:relative;z-index:2"><div class="gallery-card-tag">Exhibitions</div><div class="gallery-card-desc">Large halls, branded corridors, and show floors</div></div></div>
-      <div class="gallery-card image-card animate-on-scroll delay-1" style="background-image:url('image6.jpeg')"><div style="position:relative;z-index:2"><div class="gallery-card-tag">Networking Events</div><div class="gallery-card-desc">Premium atmosphere for sponsors and partners</div></div></div>
-      <div class="gallery-card image-card animate-on-scroll delay-2" style="background-image:url('image7.jpeg')"><div style="position:relative;z-index:2"><div class="gallery-card-tag">Trade Shows</div><div class="gallery-card-desc">Food expos, booths, and promotional visibility</div></div></div>
-      <div class="gallery-card image-card animate-on-scroll delay-3" style="background-image:url('image8.png')"><div style="position:relative;z-index:2"><div class="gallery-card-tag">Weddings</div><div class="gallery-card-desc">Elegant welcome signs and event visuals</div></div></div>
+      <div class="gallery-card image-card animate-on-scroll" style="background-image:url('image1.jpeg')"><div style="position:relative;z-index:2"><div class="gallery-card-tag">Commerce et banques</div><div class="gallery-card-desc">Promotions en succursale et affichage premium</div></div></div>
+      <div class="gallery-card image-card animate-on-scroll delay-1" style="background-image:url('image2.jpeg')"><div style="position:relative;z-index:2"><div class="gallery-card-tag">Activations de marque</div><div class="gallery-card-desc">Publicité produit à fort impact pour événements</div></div></div>
+      <div class="gallery-card image-card animate-on-scroll delay-2" style="background-image:url('image3.jpeg')"><div style="position:relative;z-index:2"><div class="gallery-card-tag">Événements corporatifs</div><div class="gallery-card-desc">Affichage pour hôtels, symposiums et conférences</div></div></div>
+      <div class="gallery-card image-card animate-on-scroll delay-3" style="background-image:url('image4.jpeg')"><div style="position:relative;z-index:2"><div class="gallery-card-tag">Marchés et cafés</div><div class="gallery-card-desc">Vendeurs alimentaires, cafés et activations saisonnières</div></div></div>
+      <div class="gallery-card image-card animate-on-scroll" style="background-image:url('image5.png')"><div style="position:relative;z-index:2"><div class="gallery-card-tag">Expositions</div><div class="gallery-card-desc">Grands halls, corridors de marque et planchers d’exposition</div></div></div>
+      <div class="gallery-card image-card animate-on-scroll delay-1" style="background-image:url('image6.jpeg')"><div style="position:relative;z-index:2"><div class="gallery-card-tag">Événements réseautage</div><div class="gallery-card-desc">Ambiance premium pour commanditaires et partenaires</div></div></div>
+      <div class="gallery-card image-card animate-on-scroll delay-2" style="background-image:url('image7.jpeg')"><div style="position:relative;z-index:2"><div class="gallery-card-tag">Salons professionnels</div><div class="gallery-card-desc">Expositions alimentaires, kiosques et visibilité promotionnelle</div></div></div>
+      <div class="gallery-card image-card animate-on-scroll delay-3" style="background-image:url('image8.png')"><div style="position:relative;z-index:2"><div class="gallery-card-tag">Mariages</div><div class="gallery-card-desc">Affichage d’accueil élégant et visuels d’événement</div></div></div>
     </div>
-    <div class="gallery-note">Real usage examples and visual mockups for VERTILED rentals</div>
+    <div class="gallery-note">Exemples d’utilisation et maquettes visuelles pour les locations VERTILED</div>
   </div>
 </section>
 
@@ -607,9 +607,9 @@
 <section class="cta-section">
   <div class="cta-box animate-on-scroll">
     <div class="cta-glow"></div>
-    <h2 class="cta-title">Ready to <span class="gradient-text">Stand Out</span>?</h2>
-    <p class="cta-desc">Bring premium vertical LED displays to your next event. Serving Toronto and Montreal.</p>
-    <a class="glow-btn" href="#contact" onclick="smoothScroll('contact')" style="font-size:16px;padding:18px 48px;position:relative">Request a Quote →</a>
+    <h2 class="cta-title">Prêt à <span class="gradient-text">vous démarquer</span>?</h2>
+    <p class="cta-desc">Ajoutez des écrans LED verticaux premium à votre prochain événement. Service à Toronto et Montréal.</p>
+    <a class="glow-btn" href="#contact" onclick="smoothScroll('contact')" style="font-size:16px;padding:18px 48px;position:relative">Demander un devis →</a>
   </div>
 </section>
 
@@ -617,39 +617,39 @@
 <section class="contact-section" id="contact">
   <div class="contact-grid animate-on-scroll">
     <div>
-      <div class="section-label" style="color:#D4AF37">Get In Touch</div>
-      <h2 class="section-title">Let's Make Your Event <span class="gradient-text">Unforgettable</span></h2>
-      <p class="section-desc">Tell us about your event and we'll get back to you with a custom quote within 24 hours.</p>
+      <div class="section-label" style="color:#D4AF37">Contactez-nous</div>
+      <h2 class="section-title">Rendons votre événement <span class="gradient-text">mémorable</span></h2>
+      <p class="section-desc">Parlez-nous de votre événement et nous vous répondrons avec une soumission personnalisée dans les 24 heures.</p>
       <a class="contact-item" href="tel:4387874737">
         <div class="contact-icon">📞</div>
-        <div><div class="contact-label">Phone</div><div class="contact-value">438-787-4737</div></div>
+        <div><div class="contact-label">Téléphone</div><div class="contact-value">438-787-4737</div></div>
       </a>
       <a class="contact-item" href="mailto:info@vertiled.ca">
         <div class="contact-icon">✉️</div>
-        <div><div class="contact-label">Email</div><div class="contact-value">info@vertiled.ca</div></div>
+        <div><div class="contact-label">Courriel</div><div class="contact-value">info@vertiled.ca</div></div>
       </a>
       <a class="contact-item" href="https://wa.me/14387874737" target="_blank" rel="noopener">
         <div class="contact-icon">💬</div>
-        <div><div class="contact-label">WhatsApp</div><div class="contact-value">Message us on WhatsApp</div></div>
+        <div><div class="contact-label">WhatsApp</div><div class="contact-value">Écrivez-nous sur WhatsApp</div></div>
       </a>
     </div>
     <div>
       <form class="contact-form" id="contactForm" onsubmit="handleFormSubmit(event)">
         <div class="form-row">
-          <input class="input-field" placeholder="Your Name" required>
-          <input class="input-field" placeholder="Email Address" type="email" required>
+          <input class="input-field" placeholder="Votre nom" required>
+          <input class="input-field" placeholder="Courriel Address" type="email" required>
         </div>
         <div class="form-row">
-          <input class="input-field" placeholder="Phone Number" type="tel">
-          <input class="input-field" placeholder="Event Date" type="date">
+          <input class="input-field" placeholder="Téléphone Number" type="tel">
+          <input class="input-field" placeholder="Date de l’événement" type="date">
         </div>
-        <textarea class="input-field" placeholder="Tell us about your event..." rows="5" required></textarea>
-        <button class="glow-btn" type="submit" style="width:100%;text-align:center" id="submitBtn">Send Message →</button>
+        <textarea class="input-field" placeholder="Parlez-nous de votre événement..." rows="5" required></textarea>
+        <button class="glow-btn" type="submit" style="width:100%;text-align:center" id="submitBtn">Envoyer le message →</button>
       </form>
       <div class="form-success" id="formSuccess" style="display:none">
         <div class="form-success-icon">✓</div>
-        <div class="form-success-title">Message Sent!</div>
-        <div class="form-success-desc">We'll get back to you within 24 hours.</div>
+        <div class="form-success-title">Message envoyé!</div>
+        <div class="form-success-desc">Nous vous répondrons dans les 24 heures.</div>
       </div>
     </div>
   </div>
@@ -662,12 +662,12 @@
       <img src="logo.png" class="logo-img" alt="VERTILED logo">
     </a>
     <div class="footer-links">
-      <button class="nav-link" onclick="smoothScroll('hero')">Home</button>
-      <button class="nav-link" onclick="smoothScroll('pricing')">Rentals</button>
-      <button class="nav-link" onclick="smoothScroll('gallery')">Gallery</button>
+      <button class="nav-link" onclick="smoothScroll('hero')">Accueil</button>
+      <button class="nav-link" onclick="smoothScroll('pricing')">Locations</button>
+      <button class="nav-link" onclick="smoothScroll('gallery')">Galerie</button>
       <button class="nav-link" onclick="smoothScroll('contact')">Contact</button>
     </div>
-    <div class="footer-copy">© 2026 VERTILED. All rights reserved. Toronto &amp; Montreal.</div>
+    <div class="footer-copy">© 2026 VERTILED. Tous droits réservés. Toronto &amp; Montreal.</div>
   </div>
 </footer>
 
